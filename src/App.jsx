@@ -1,7 +1,13 @@
+import Header from "./components/Header";
+import Quiz from "./components/Quiz";
+
 function App() {
   return (
     <>
-      <h2>Quiz App Test :)</h2>
+      <Header />
+      <main>
+        <Quiz />
+      </main>
     </>
   );
 }
